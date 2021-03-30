@@ -9,4 +9,4 @@ C   = B(10:41,:);
 fclose(fid);
 fid = fopen('example.txt', 'w');
 % fprintf(fid, '%c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c %c \r\n', C);
-fprintf(fid, '%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,%c,\n', C);
+fprintf(fid, '0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,0x%c%c,\n', C);
